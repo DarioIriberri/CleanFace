@@ -1,0 +1,1 @@
+powershell -NoExit -File "output/copyBin.ps1"
