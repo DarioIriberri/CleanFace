@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <FaceProject DeviceType="3652">
-    <Screen Title="CleanFace" Bitmap="thumbnail.png">
+    <Screen Title="CleanFaceUS" Bitmap="thumbnail.png">
         <Widget Shape="30" Name="TwoDots1" X="109" Y="159" Width="54" Height="132" Alpha="255" Visible_Src="0" Bitmap="TwoDots.png" />
         <Widget Shape="30" Name="TwoDots2" X="251" Y="159" Width="54" Height="132" Alpha="255" Visible_Src="0" Bitmap="TwoDots.png" />
         <Widget Shape="32" Name="Hours0" X="66" Y="159" Width="54" Height="132" Alpha="255" Digits="1" Alignment="2" Spacing="0" Blanking="0" Visible_Src="0" Value_Src="811" BitmapList="zero.png|one.png|two.png|three.png|four.png|five.png|six.png|seven.png|eight.png|nine.png|TwoDots.png" />
@@ -15,8 +15,8 @@
         <Widget Shape="30" Name="Steps" X="49" Y="302" Width="81" Height="81" Alpha="255" Visible_Src="0" Bitmap="StepsIcon.png" />
         <Widget Shape="1001" Name="WeekIcon" X="250" Y="19" Width="145" Height="81" Alpha="0" Visible_Src="0" BitmapList="SUN.png|MON.png|TUE.png|WED.png|THU.png|FRI.png|SAT.png" />
         <Widget Shape="31" Name="DayOfWeekImageList" X="248" Y="16" Width="145" Height="81" Alpha="255" Visible_Src="0" Index_Src="2012" DefaultIndex="0" BitmapList="(0):SUN.png|(1):MON.png|(2):TUE.png|(3):WED.png|(4):THU.png|(5):FRI.png|(6):SAT.png" />
-        <Widget Shape="32" Name="Day" X="319" Y="67" Width="40" Height="81" Alpha="255" Digits="1" Alignment="2" Spacing="0" Blanking="1" Visible_Src="0" Value_Src="1812" BitmapList="zeroSmall.png|oneSmall.png|twoSmall.png|threeSmall.png|fourSmall.png|fiveSmall.png|sixSmall.png|sevenSmall.png|eightSmall.png|nineSmall.png|percentSmall.png" />
-        <Widget Shape="32" Name="Month" X="247" Y="67" Width="40" Height="81" Alpha="255" Digits="1" Alignment="0" Spacing="0" Blanking="1" Visible_Src="0" Value_Src="1012" BitmapList="zeroSmall.png|oneSmall.png|twoSmall.png|threeSmall.png|fourSmall.png|fiveSmall.png|sixSmall.png|sevenSmall.png|eightSmall.png|nineSmall.png|percentSmall.png" />
+        <Widget Shape="32" Name="Day" X="319" Y="67" Width="40" Height="81" Alpha="255" Digits="1" Alignment="0" Spacing="0" Blanking="1" Visible_Src="0" Value_Src="1812" BitmapList="zeroSmall.png|oneSmall.png|twoSmall.png|threeSmall.png|fourSmall.png|fiveSmall.png|sixSmall.png|sevenSmall.png|eightSmall.png|nineSmall.png|percentSmall.png" />
+        <Widget Shape="32" Name="Month" X="247" Y="67" Width="40" Height="81" Alpha="255" Digits="1" Alignment="2" Spacing="0" Blanking="1" Visible_Src="0" Value_Src="1012" BitmapList="zeroSmall.png|oneSmall.png|twoSmall.png|threeSmall.png|fourSmall.png|fiveSmall.png|sixSmall.png|sevenSmall.png|eightSmall.png|nineSmall.png|percentSmall.png" />
         <Widget Shape="30" Name="Bar" X="284" Y="67" Width="40" Height="81" Alpha="255" Visible_Src="0" Bitmap="barSmall.png" />
     </Screen>
 </FaceProject>
