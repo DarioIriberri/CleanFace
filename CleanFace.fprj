@@ -18,5 +18,6 @@
         <Widget Shape="32" Name="Day" X="247" Y="67" Width="40" Height="81" Alpha="255" Digits="1" Alignment="2" Spacing="0" Blanking="1" Visible_Src="0" Value_Src="1812" BitmapList="zeroSmall.png|oneSmall.png|twoSmall.png|threeSmall.png|fourSmall.png|fiveSmall.png|sixSmall.png|sevenSmall.png|eightSmall.png|nineSmall.png|percentSmall.png" />
         <Widget Shape="32" Name="Month" X="319" Y="67" Width="40" Height="81" Alpha="255" Digits="1" Alignment="0" Spacing="0" Blanking="1" Visible_Src="0" Value_Src="1012" BitmapList="zeroSmall.png|oneSmall.png|twoSmall.png|threeSmall.png|fourSmall.png|fiveSmall.png|sixSmall.png|sevenSmall.png|eightSmall.png|nineSmall.png|percentSmall.png" />
         <Widget Shape="30" Name="Bar" X="284" Y="67" Width="40" Height="81" Alpha="255" Visible_Src="0" Bitmap="barSmall.png" />
+        <Widget Shape="32" Name="KcalCount0" X="277" Y="397" Width="40" Height="81" Alpha="255" Digits="1" Alignment="2" Spacing="0" Blanking="1" Visible_Src="0" Value_Src="823" BitmapList="fourSmall.png|oneSmall.png|twoSmall.png|threeSmall.png|fourSmall.png|fiveSmall.png|sixSmall.png|sevenSmall.png|eightSmall.png|nineSmall.png|zeroSmall.png" />
     </Screen>
 </FaceProject>
