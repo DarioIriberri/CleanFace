@@ -1,4 +1,4 @@
 # CleanFace
 Watch face for the Redmi Watch 5 Lite and my tired eyes.
 
-![CleanFace](images/thumbnail.png)
+![CleanFace](CleanFace/images/thumbnail.png)
