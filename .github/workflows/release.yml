@@ -1,0 +1,27 @@
+YAML
+
+name: Draft Release Assets
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v4
+
+      - name: Crear Release y adjuntar archivos .face
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            CleanFace/output/CleanFace.face
+            CleanFaceKms/output/CleanFaceKms.face
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
